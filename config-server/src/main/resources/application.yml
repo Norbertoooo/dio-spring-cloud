@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/Norbertoooo/dio-config-server
+          default-label: main
+server:
+  port: 8888
